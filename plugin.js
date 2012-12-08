@@ -6,7 +6,7 @@ const TAR = require("tar");
 
 exports.for = function(API, plugin) {
 
-    plugin.extract = function(fromPath, toPath, options) {
+    plugin.extract = function(fromPath, toPath, locator, options) {
         var deferred = API.Q.defer();
         // TODO: Use os command if available as it is much faster.
         var stream = FS.createReadStream(fromPath);
