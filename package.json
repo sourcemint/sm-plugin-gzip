@@ -1,9 +1,9 @@
 {
-	"name": "sm-plugin-tar",
-	"version": "0.1.0",
-	"pm": "npm",
-	"main": "./plugin.js",
-	"dependencies": {
-		"tar": "~0.1.12"
-	}
+    "name": "sm-plugin-tar",
+    "version": "0.1.1",
+    "pm": "npm",
+    "main": "./plugin.js",
+    "dependencies": {
+        "tar": "~0.1.12"
+    }
 }
