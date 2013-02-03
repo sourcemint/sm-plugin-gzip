@@ -1,5 +1,5 @@
 {
-    "name": "sm-plugin-tar",
+    "name": "sm-plugin-gzip",
     "version": "0.1.1",
     "pm": "npm",
     "main": "./plugin.js",
